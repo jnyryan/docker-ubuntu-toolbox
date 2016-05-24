@@ -15,6 +15,7 @@ docker run -t -i jnyryan/ubuntu-toolbox
 - build-essential
 - ca-certificates
 - curl
+- ***dotNet Core 1.0.0-preview***
 - git
 - libssl-dev
 - make
