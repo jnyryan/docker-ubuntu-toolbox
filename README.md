@@ -3,13 +3,11 @@
   Ubuntu 14.04 image with lots of tools installed
 
 ## Usage
-
-Run
 ```
 docker run -t -i jnyryan/ubuntu-toolbox
 ```
 
-# tools
+# Tools
 
 - apt-transport-https
 - build-essential
@@ -17,6 +15,7 @@ docker run -t -i jnyryan/ubuntu-toolbox
 - curl
 - ***dotNet Core 1.0.0-preview***
 - git
+- ***java 7 (openjdk)***
 - libssl-dev
 - make
 - ***python 2.7***

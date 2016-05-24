@@ -28,7 +28,7 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends \
         wget
 
 # Install Python
-RUN apt-get install -y python 
+RUN apt-get install -y python
 
 # Install Ruby
 RUN apt-get install -y ruby ruby-dev
@@ -43,6 +43,9 @@ ENV PATH      $NVM_DIR/v$NODE_VERSION/bin:$PATH
 
 # Install dotNet
 RUN apt-get install -y dotnet-dev-1.0.0-preview1-002702
+
+# Install java
+RUN apt-get install -y openjdk-7-jdk
 
 # delete all the apt list files since they're big and get stale quickly
 #RUN rm -rf /var/lib/apt/lists/*
